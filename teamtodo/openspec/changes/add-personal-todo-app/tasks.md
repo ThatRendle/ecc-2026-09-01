@@ -1,9 +1,9 @@
 ## 1. Backend project setup
 
-- [ ] 1.1 Scaffold `backend/` as a .NET 10 ASP.NET Core Minimal API project and verify `dotnet run` starts without error
-- [ ] 1.2 Add EF Core + SQLite provider packages and verify `dotnet build` succeeds
-- [ ] 1.3 Define `TodoItem` and `Tag` entities plus the `DbContext` per design.md's data model and verify an initial EF Core migration generates successfully
-- [ ] 1.4 Apply the migration to create the local SQLite database and verify the database file and expected tables are created
+- [x] 1.1 Scaffold `backend/` as a .NET 10 ASP.NET Core Minimal API project and verify `dotnet run` starts without error
+- [x] 1.2 Add EF Core + SQLite provider packages and verify `dotnet build` succeeds
+- [x] 1.3 Define `TodoItem` and `Tag` entities plus the `DbContext` per design.md's data model and verify an initial EF Core migration generates successfully
+- [x] 1.4 Apply the migration to create the local SQLite database and verify the database file and expected tables are created
 
 ## 2. Backend API endpoints
 
